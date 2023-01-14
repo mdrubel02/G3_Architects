@@ -48,22 +48,8 @@ a:hover {
 }
 
 .btn-primary {
-    outline: 0;
-    border: 0;
-    padding: 15px 20px;
+    background: #4db5ff;
     color: #fff;
-    font-size: 18px;
-    text-transform: uppercase;
-    border-radius: 5px;
-    background-image: linear-gradient(90deg, #c21273, #FF008E);
-    cursor: pointer;
-    box-shadow:0 7px 0 #a5075e ;
-    position: relative;
-    top: 0;
-}
-.btn-primary:active{
-    top: 5px;
-    box-shadow:0 2px 0 #a5075e ;
 }
 /*<=============== style header section=================> */
 nav{
@@ -81,10 +67,8 @@ nav{
 }
 .navigation li a{
     color: #424242;
-    font-size: 20px;
+    font-size: 24px;
     font-weight: 500;
-    text-decoration: none;
-    padding: 15px 10px;
 }
 .logo h2{
     font-size: 45px;
