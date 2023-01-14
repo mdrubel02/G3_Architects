@@ -18,7 +18,6 @@ body {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 30px;
-    margin-bottom: 2.5rem;
     box-sizing: border-box;
 }
 
@@ -88,7 +87,7 @@ nav{
     padding: 15px 10px;
 }
 .logo h2{
-    font-size: 40px;
+    font-size: 45px;
     font-weight: 700;
     /* text-align: center; */
 }
@@ -106,28 +105,13 @@ nav{
     justify-content: center;
     align-items: center;
     text-align: center;
-   
 }
 .banner_left h1{
-    font-size: 50px;
+    font-size: 65px;
     font-weight: 700;
     color: #131313;
-    width: 700px;
+    width: 850px;
 }
-.banner_left p{
-    color: #727272;
-    font-size: 14px;
-    width: 800px;
-    text-align: center;
-    padding: 5px;
-}
-.banner_right{
-    width: 100%;
-    display: flex;
-    overflow: hidden;
-    justify-content: center;
-    align-items: center;
-}
-.banner{
-    height: 500px;
+.banner_left img{
+    height: 700px;
 }

@@ -88,7 +88,7 @@ nav{
     padding: 15px 10px;
 }
 .logo h2{
-    font-size: 40px;
+    font-size: 45px;
     font-weight: 700;
     /* text-align: center; */
 }
@@ -113,13 +113,6 @@ nav{
     font-weight: 700;
     color: #131313;
     width: 700px;
-}
-.banner_left p{
-    color: #727272;
-    font-size: 14px;
-    width: 800px;
-    text-align: center;
-    padding: 5px;
 }
 .banner_right{
     width: 100%;
