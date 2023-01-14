@@ -146,24 +146,3 @@ nav{
     grid-template-columns: repeat(2, 1fr);
     gap: 1.5rem;
 }
-.features_right{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-}
-.features_right h1{
-    font-size: 35px;
-    font-weight: 700;
-}
-.features_right p{
-    color: #424242;
-    font-size: 12px;
-    padding: 5px;
-}
-.list{
-    color: #424242;
-}
-.feature{
-    color: #FF900E;
-}

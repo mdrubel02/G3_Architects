@@ -18,7 +18,7 @@ body {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 30px;
-    margin-bottom: 3rem;
+    margin-bottom: 2.5rem;
     box-sizing: border-box;
 }
 
@@ -38,18 +38,14 @@ a:hover {
     color: #fff;
     padding: 0.75rem 1.2rem;
     border-radius: 0.4rem;
-    border: 1px solid #FF900E;
+    border: 1px solid #4db5ff;
     transition: all 400ms ease;
-    cursor: pointer;
 }
-.btn-secondary {
-    background: #FF900E;
-    color: #fff;
-}
+
 .btn:hover {
     background: #fff;
-    color:  #FF900E;
-    border: 1px solid  #FF900E;
+    color: #4db5ff;
+    border: 1px solid #4db5ff;
 }
 
 .btn-primary {
@@ -62,7 +58,7 @@ a:hover {
     border-radius: 5px;
     background-image: linear-gradient(90deg, #FF900E, #FFC72C);
     cursor: pointer;
-    box-shadow:0 7px 0 #FF900E ;
+    box-shadow:0 7px 0 #a5075e ;
     position: relative;
     top: 0;
 }
@@ -134,36 +130,4 @@ nav{
 }
 .banner{
     height: 500px;
-}
-/* ============== Style Feature section ============= */
-.features_section{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 2.4rem;
-}
-.features_left{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 1.5rem;
-}
-.features_right{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-}
-.features_right h1{
-    font-size: 35px;
-    font-weight: 700;
-}
-.features_right p{
-    color: #424242;
-    font-size: 12px;
-    padding: 5px;
-}
-.list{
-    color: #424242;
-}
-.feature{
-    color: #FF900E;
 }

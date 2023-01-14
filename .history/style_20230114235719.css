@@ -18,7 +18,7 @@ body {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 30px;
-    margin-bottom: 3rem;
+    margin-bottom: 2.5rem;
     box-sizing: border-box;
 }
 
@@ -139,31 +139,13 @@ nav{
 .features_section{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 2.4rem;
 }
 .features_left{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 1.5rem;
+    gap: 2rem;
 }
-.features_right{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-}
-.features_right h1{
-    font-size: 35px;
-    font-weight: 700;
-}
-.features_right p{
-    color: #424242;
-    font-size: 12px;
-    padding: 5px;
-}
-.list{
-    color: #424242;
-}
-.feature{
-    color: #FF900E;
-}
+/* .features_photos img{
+    height: 342px;
+    width: 342px;
+} */
