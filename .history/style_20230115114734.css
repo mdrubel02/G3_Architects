@@ -275,12 +275,7 @@ nav{
     font-size: 12px;
     font-weight: 500;
 }
-.sponsors_logo{
+.sponsor_logo{
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    margin-top: 40px;
-}
-.sponsor_brand_logo img{
-    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-    filter: grayscale(100%);
 }
