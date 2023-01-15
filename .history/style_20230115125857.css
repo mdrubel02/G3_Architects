@@ -336,17 +336,11 @@ footer p{
         width: 300px;
     }
     .banner_left p{
-        font-size: 10px;
-        width: 300px;
+        color: #727272;
+        font-size: 14px;
+        width: 800px;
         text-align: center;
         padding: 5px;
-    }
-    .btn-primary {
-        padding: 10px 15px;
-        font-size: 14px;
-    }
-    .banner{
-        height: 250px;
     }
    
 }
