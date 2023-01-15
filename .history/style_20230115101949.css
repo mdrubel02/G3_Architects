@@ -199,7 +199,6 @@ nav{
 }
 .features_destiny_right{
     width: 80%;
-    position: relative;
 }
 .features_destiny_right img{
     width: 557px;
@@ -215,9 +214,6 @@ nav{
     border-radius: 5px;
     background-image: linear-gradient(90deg, #FFC72C, #FF900E);
     cursor: pointer;
-    position: absolute;
-    top: 80%;
-    left: 0;
 }
 .experience_btn a{
     font-size: 30px;

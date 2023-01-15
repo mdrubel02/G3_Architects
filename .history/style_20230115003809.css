@@ -179,50 +179,19 @@ nav{
     width: 450px;
     font-weight: 700;
     position: relative;
-    border-left: 5px solid  #FF900E;
-    padding: 15px;
-    margin-bottom: 24px;
 }
-.features_destiny_left p{
-    font-size: 14px;
-    color: #727272;
-    margin-bottom: 30px;
-}
-.feature_destiny_body{
-    padding: 30px;
-}
-.feature_destiny_body h3{
-    font-size: 20px;
-    font-weight: 600;
-    color: #131313;
-    margin-bottom: 10px;
+.features_destiny_title::after{
+    content: "" ;
+    top: 0;
+    left: 0;
+    width: 5px;
+    height: 100px;
+    background-color: #FF900E;
 }
 .features_destiny_right{
     width: 80%;
-    position: relative;
 }
 .features_destiny_right img{
     width: 557px;
-    height: 820px;
-}
-.experience_btn{
-    outline: 0;
-    border: 0;
-    padding: 46px;
-    color: #fff;
-    font-size: 18px;
-    text-transform: uppercase;
-    border-radius: 5px;
-    background-image: linear-gradient(90deg, #FFC72C, #FF900E);
-    cursor: pointer;
-    position: absolute;
-    top: 80%;
-    left: 0;
-}
-.experience_btn a{
-    font-size: 30px;
-}
-.experience_btn a span{
-    font-size: 15px;
-    display: block;
+    height: 680px;
 }
