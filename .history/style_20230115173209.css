@@ -255,7 +255,7 @@ nav {
     background-image: linear-gradient(90deg, #FFC72C, #FF900E);
     cursor: pointer;
     position: absolute;
-    top: 85%;
+    top: 80%;
     left: 0;
 }
 
@@ -519,9 +519,6 @@ footer p {
     #nav-toggler:checked~.navigation {
         transform: translateY(0);
     }
-    .logo h2 {
-        font-size: 30px;
-    }
 
     /* banner */
     .banner_left h1 {
@@ -573,8 +570,8 @@ footer p {
     }
 
     .features_destiny_title {
-        font-size: 20px;
-        width: 300px;
+        font-size: 25px;
+        width: 350px;
     }
 
     .features_destiny_left p {
