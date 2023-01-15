@@ -511,7 +511,7 @@ footer p {
 
     .features_destiny_title {
         font-size: 25px;
-        width: 350px;
+        width: 400px;
     }
 
     .features_destiny_left p {
@@ -521,7 +521,7 @@ footer p {
 
     .features_destiny_right img {
         text-align: center;
-        width: 100%;
+        max-width: 100%;
         height: 650px;
     }
 
