@@ -307,7 +307,7 @@ footer p{
 #nav-toggler{
     display: none;
 }
-@media (max-width:550px) {
+@media (max-width:576px) {
     .navigation{
         position: absolute;
         top: 80px;
@@ -378,25 +378,19 @@ footer p{
     }
     .features_destiny_right img{
         text-align: center;
-       max-width: 100%;
+        width: 450px;
         height: 650px;
     }
     .experience_btn{
         padding: 35px;
         font-size: 16px;
-        top: 85%;
+        top: 82%;
     }
     .experience_btn a{
-        font-size: 24px;
+        font-size: 30px;
     }
-    /* activity section responsive */
-    .activity_section h3{
-        text-align: center;
-    }
-    .activity_section p{
-        text-align: center;
-    }
-    .award_section{
-        grid-template-columns: 1fr;
+    .experience_btn a span{
+        font-size: 15px;
+        display: block;
     }
 }

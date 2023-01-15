@@ -307,7 +307,7 @@ footer p{
 #nav-toggler{
     display: none;
 }
-@media (max-width:550px) {
+@media (max-width:576px) {
     .navigation{
         position: absolute;
         top: 80px;
@@ -376,27 +376,34 @@ footer p{
         font-size: 12px;
         width: 300px;
     }
+    .features_destiny_right{
+        width: 100%;
+        position: relative;
+    }
     .features_destiny_right img{
         text-align: center;
-       max-width: 100%;
+        width: 450px;
         height: 650px;
     }
     .experience_btn{
-        padding: 35px;
-        font-size: 16px;
-        top: 85%;
+        outline: 0;
+        border: 0;
+        padding: 46px;
+        color: #fff;
+        font-size: 18px;
+        text-transform: uppercase;
+        border-radius: 5px;
+        background-image: linear-gradient(90deg, #FFC72C, #FF900E);
+        cursor: pointer;
+        position: absolute;
+        top: 80%;
+        left: 0;
     }
     .experience_btn a{
-        font-size: 24px;
+        font-size: 30px;
     }
-    /* activity section responsive */
-    .activity_section h3{
-        text-align: center;
-    }
-    .activity_section p{
-        text-align: center;
-    }
-    .award_section{
-        grid-template-columns: 1fr;
+    .experience_btn a span{
+        font-size: 15px;
+        display: block;
     }
 }

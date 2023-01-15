@@ -396,7 +396,4 @@ footer p{
     .activity_section p{
         text-align: center;
     }
-    .award_section{
-        grid-template-columns: 1fr;
-    }
 }
