@@ -309,24 +309,18 @@ footer p{
 }
 @media (max-width:576px) {
     .navigation{
-        position: absolute;
+        position: fixed;
         top: 80px;
         left: 0;
         width: 100%;
         flex-direction: column;
         align-items: center;
         background-color: #a78968 ;
-        transform: translateY(-320px);
-        transition: .5s ease-in-out;
     }
     .toggler_icons{
         display: block;
     }
-    .navigation li a{
-        color: #fff;
+    .toggler_icons{
+        color: #FF900E;
     }
-    #nav-toggler:checked ~ .navigation{
-        transform: translateY(0);
-    }
-   
 }

@@ -317,7 +317,6 @@ footer p{
         align-items: center;
         background-color: #a78968 ;
         transform: translateY(-320px);
-        transition: .5s ease-in-out;
     }
     .toggler_icons{
         display: block;
