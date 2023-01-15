@@ -253,25 +253,4 @@ nav{
     align-items: center;
     justify-content: center;
     padding: 46px 36px;
-    border-radius: 5px;
-}
-.award_items span{
-    font-size: 35px;
-    font-weight: 500;
-    margin-top: 8px;
-    
-}
-.sponsors_section{
-    text-align: center;
-}
-.sponsors_section h1{
-    font-size: 40px;
-    font-weight: 700;
-    color: #131313;
-    margin-bottom: 24px;
-}
-.sponsors_section p{
-    color: #727272;
-    font-size: 12px;
-    font-weight: 500;
 }
