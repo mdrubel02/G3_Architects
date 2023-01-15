@@ -349,20 +349,6 @@ footer p{
         height: 250px;
     }
     /* Features Section responsive */
-    .features_section{
-        text-align: center;
-        grid-template-columns: 1fr ;
-    }
-    .features_left{
-        grid-template-columns:1fr;
-    }
-    .features_right{
-        align-items: center;
-    }
-    .features_photos img{
-        width: 300px;
-        height: 250px;
-    }
-    /* features_destiny responsive */
+    
    
 }

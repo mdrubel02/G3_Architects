@@ -359,10 +359,5 @@ footer p{
     .features_right{
         align-items: center;
     }
-    .features_photos img{
-        width: 300px;
-        height: 250px;
-    }
-    /* features_destiny responsive */
    
 }

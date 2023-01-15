@@ -350,19 +350,14 @@ footer p{
     }
     /* Features Section responsive */
     .features_section{
-        text-align: center;
+        display: grid;
         grid-template-columns: 1fr ;
+        gap: 2.4rem;
     }
     .features_left{
+        display: grid;
         grid-template-columns:1fr;
+        gap: 1.5rem;
     }
-    .features_right{
-        align-items: center;
-    }
-    .features_photos img{
-        width: 300px;
-        height: 250px;
-    }
-    /* features_destiny responsive */
    
 }
