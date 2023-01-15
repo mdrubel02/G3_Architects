@@ -298,6 +298,8 @@ nav {
 .award {
     height: 220px;
     width: 220px;
+    display: flex;
+    
 }
 
 .award_items {
@@ -615,12 +617,6 @@ footer p {
     .award_section {
         grid-template-columns: 1fr;
         text-align: center;
-    }
-    .award{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 100%;
     }
 
     /* sponsor section responsive */
