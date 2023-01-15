@@ -457,16 +457,11 @@ nav {
 
 .contact_right {
     width: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 form {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
     gap: 1.2rem;
 }
 
@@ -636,11 +631,8 @@ footer p {
         grid-template-columns: 1fr;
     }
     .contact_img {
+        height: 600px;
         width: 100%;
-    }
-    .contact_right {
-        width: 100%;
-        
     }
 
     footer p {

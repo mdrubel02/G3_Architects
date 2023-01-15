@@ -457,18 +457,15 @@ nav {
 
 .contact_right {
     width: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
-form {
+/* form {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 1.2rem;
-}
+} */
 
 input,
 textarea {
@@ -639,7 +636,7 @@ footer p {
         width: 100%;
     }
     .contact_right {
-        width: 100%;
+        width: 70%;
         
     }
 
